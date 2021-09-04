@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  codex_completions:
+    restart: always
+    build: codex
+    ports:
+      - 42012:42012
+    environment:
+      - PORT=42012
+      - TOKEN=OPENAI_API_KEY
