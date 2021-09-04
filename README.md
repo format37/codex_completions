@@ -1,2 +1,2 @@
-# codex_completions_python
-codex completions docker server
+# OpenAI Codex completions docker server
+Listening on selected port and returns code completions with selected language
